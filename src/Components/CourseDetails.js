@@ -22,8 +22,7 @@ function CourseDetails() {
       <p>Location : {course.location}</p>
       <p>Prerequisites : {course.prerequisites}</p>
       <p>Syllabus :   {course.syllabus}</p>
-      {/* Include the rest of the course details here */}
-    </div>
+      </div>
   );
 }
 
