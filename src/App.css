@@ -1,11 +1,10 @@
-/* Assuming each course card has a fixed width and you want to display them in 3 columns */
 body{
     background-color:rgb(69, 68, 67);
     color: white;
     text-align: center;
 }
 .course-card {
-    width: 30%; /* Adjust as needed */
+    width: 30%;
     margin: 1%;
     margin-top: 50px;
     display: inline-block;
@@ -16,18 +15,16 @@ body{
     background-color:darkgrey;
     border-radius: 11px;
   }
-  
-  /* To ensure three cards per row on larger screens */
+
   @media (min-width: 768px) {
     .course-card {
-      width: 30%; /* Adjust as needed */
+      width: 30%;
     }
   }
-  
-  /* To ensure two cards per row on smaller screens */
+
   @media (max-width: 767px) {
     .course-card {
-      width: 48%; /* Adjust as needed */
+      width: 48%;
     }
   }
   .input {
