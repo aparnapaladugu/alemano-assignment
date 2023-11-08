@@ -1,0 +1,70 @@
+/* Assuming each course card has a fixed width and you want to display them in 3 columns */
+body{
+    background-color:rgb(69, 68, 67);
+    color: white;
+    text-align: center;
+}
+.course-card {
+    width: 30%; /* Adjust as needed */
+    margin: 1%;
+    margin-top: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color:darkgrey;
+    border-radius: 10px;
+  }
+  
+  /* To ensure three cards per row on larger screens */
+  @media (min-width: 768px) {
+    .course-card {
+      width: 30%; /* Adjust as needed */
+    }
+  }
+  
+  /* To ensure two cards per row on smaller screens */
+  @media (max-width: 767px) {
+    .course-card {
+      width: 48%; /* Adjust as needed */
+    }
+  }
+  .input {
+   margin: auto;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .progress-bar {
+    background-color: #3498db;
+    height: 20px;
+    text-align: center;
+    color: white;
+  }
+  button{
+    background-color: rgb(123, 123, 43);
+    color: #fff;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+  }
+  .course-details{
+    border: 10px solid white;
+    font-size: 25px;
+  }
