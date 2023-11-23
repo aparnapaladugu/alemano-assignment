@@ -21,7 +21,6 @@ function CourseList() {
         onChange={(e) => setSearchTerm(e.target.value)}
       />
        </div>
-
       <div className="course-list">
         {filteredCourses.map((course) => (
           <CourseCard key={course.id} course={course} />
